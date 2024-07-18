@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Miama";
+    src: url(Miama.ttf);
+}
+
+/* Google Font import links */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Common styles */
+/* * {
+    margin: 0;
+} */
+
+* {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+.btn-primary {
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.btn-secondary {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.light-white {
+    color: white;
+    opacity: 0.5;
+}
+
+/* Section - Header */
+.header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    border: 2px solid tomato;
+    margin: 0 auto;
+}
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading h1{
+    color: #E6533C;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: left;
+}
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 0.1rem 2rem 0.1rem 0.5rem;
+    line-height: 0px;
+    margin: 0;
+}
+.nav-options p {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    /* line-height: 0px; */
+    margin: 0.1rem;
+    border: none;
+}
+.btn-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 1.2rem 2rem;
+
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text {
+    width: 35rem;
+}
+.banner-heading {
+    font-size: 5rem;
+}
+.miama {
+    font-family: 'Miama';
+    font-size: 9rem;
+    font-weight: 100;
+    line-height: 1rem;
+    background: transparent;
+}
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0rem;
+    line-height: 1.5rem;
+}
+.banner-btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+.banner-btn1 {
+    padding: 0.75rem 2rem;
+}
+.banner-btn2 {
+    padding: 0.75rem 2rem;
+}
+.banner-img img{
+    width: 100%;
+}
+
+/* section - Habits */
+.habits {
+    justify-content: center;
+}
+.habits-heading {
+    text-align: center;
+}
+.habits-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.habits-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.habits-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    text-align: center;
+}
+.habit-img {
+    border: 4px solid dimgray;
+    border-radius: 50%;
+    width: 100%;
+}
+.habit h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.habit p {
+    font-size: 1rem;
+    font-weight: 400;
+}
