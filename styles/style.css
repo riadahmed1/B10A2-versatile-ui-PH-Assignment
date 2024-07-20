@@ -7,19 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* Common styles */
-/* * {
-    margin: 0;
-} */
 
 * {
     font-family: "Inter", sans-serif;
-    background-color: black;
     color: white;
 }
+
 .container {
     width: 80%;
-    margin: 2rem auto;
+    margin: 0 auto;
 }
+
 .btn-primary {
     background-color: #E6533C;
     color: white;
@@ -28,6 +26,7 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+
 .btn-secondary {
     color: white;
     border: 1px solid gray;
@@ -35,30 +34,40 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
+
 .light-white {
     color: white;
     opacity: 0.5;
 }
 
-/* Section - Header */
-.header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    border: 2px solid tomato;
+/* Body Start */
+body {
+    background-color: black;
+    color: white;
     margin: 0 auto;
 }
+
+/* Section - Header */
+.header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    margin: 0 auto;
+}
+
 /* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-heading h1{
+
+.nav-heading h1 {
     color: #E6533C;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
     text-align: left;
 }
+
 .nav-options {
     display: flex;
     justify-content: space-between;
@@ -70,6 +79,7 @@ nav {
     line-height: 0px;
     margin: 0;
 }
+
 .nav-options p {
     color: white;
     font-size: 1.25rem;
@@ -78,6 +88,7 @@ nav {
     margin: 0.1rem;
     border: none;
 }
+
 .btn-home {
     display: flex;
     justify-content: center;
@@ -94,12 +105,21 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.banner-text {
-    width: 35rem;
-}
+
 .banner-heading {
+    width: 35rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* .banner-text {
+    width: 35rem;
+} */
+
+.banner-title {
     font-size: 5rem;
 }
+
 .miama {
     font-family: 'Miama';
     font-size: 9rem;
@@ -107,59 +127,326 @@ nav {
     line-height: 1rem;
     background: transparent;
 }
+
 .banner-description {
     font-size: 1rem;
     font-weight: 400;
     margin: 2rem 0rem;
     line-height: 1.5rem;
+    letter-spacing: 0.3px;
 }
+
 .banner-btn {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 1rem;
 }
+
 .banner-btn1 {
-    padding: 0.75rem 2rem;
+    padding: 1rem 2rem;
 }
+
 .banner-btn2 {
-    padding: 0.75rem 2rem;
+    padding: 1rem 2rem;
+    background: transparent;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
 }
 
 /* section - Habits */
 .habits {
-    justify-content: center;
+    margin: 5rem auto;
 }
+
 .habits-heading {
     text-align: center;
 }
+
 .habits-title {
     font-size: 3rem;
     font-weight: 900;
+    line-height: 20%;
 }
+
 .habits-description {
     font-size: 1rem;
     font-weight: 400;
+    margin-bottom: 5rem;
+    letter-spacing: 0.3px;
 }
+
 .habits-list {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
     text-align: center;
+    margin: 0 auto;
 }
+
 .habit-img {
     border: 4px solid dimgray;
     border-radius: 50%;
     width: 100%;
 }
+
 .habit h1 {
     font-size: 1.5rem;
     font-weight: 600;
+    letter-spacing: 0.3px;
 }
+
 .habit p {
     font-size: 1rem;
     font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+/* Section - Run */
+.run {
+    margin: 5rem auto;
+}
+
+.run-container {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.run-text {
+    text-align: left;
+    width: 40%;
+}
+
+.run-text h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3px;
+}
+
+.run-text button {
+    padding: 0.75rem 3rem;
+}
+
+.run-img {
+    width: 50%;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Section - BMI */
+.bmi {
+    margin: 5rem auto;
+}
+
+.bmi-heading {
+    width: fit-content;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.bmi-heading h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 20%;
+}
+
+.bmi-heading p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.bmi-containers {
+    background-color: #222222;
+}
+
+.bmi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.chart {
+    width: 22rem;
+    height: 15rem;
+    margin: 0 0 5rem 0;
+}
+
+.chart-calc-title {
+    font-size: 2rem;
+}
+
+.calc-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: -1rem 0 2rem 0;
+}
+.calc-container {
+    width: 60%;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+.row1 {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+}
+.row1 height {
+    width: 50%;
+}
+.row2 {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+}
+.row2 age {
+    width: 50%;
+}
+.row3 {
+    width: 100%;
+}
+.calc input,
+select {
+    background-color: #3d3c3c;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.calc-btn button {
+    padding: 0.75rem 3rem;
+    margin: 2rem 0;
+}
+
+td {
+    color: white;
+    opacity: 0.5;
+    font-weight: 300;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid dimgray;
+    padding: 5px 10px;
+    text-align: left;
+}
+th {
+    line-height: 2rem;
+}
+
+/* Section - Team */
+.team {
+    margin: 5rem auto;
+}
+
+.team-heading {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-heading h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 20%;
+}
+
+.team-heading p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.team-imgs {
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.team-imgs img {
+    width: 100%;
+    aspect-ratio: 1.2;
+    border-radius: 20px;
+}
+.team-img p {
+    color: white;
+    opacity: 0.5;
+}
+.team-img {
+    position: relative;
+}
+
+
+.trainer-info {
+    position: absolute;
+    top: 14.5rem;
+    left: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #222222;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer-heading {
+    width: 40rem;
+}
+
+.footer-heading h1 {
+    color: #E6533C;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: left;
+}
+
+.footer-links p {
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.rights {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 2rem 0;
 }

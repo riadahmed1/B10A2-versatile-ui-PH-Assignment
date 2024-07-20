@@ -1,0 +1,220 @@
+@media screen and (max-width:576px) {
+
+    .header-container {
+        width: 90%;
+    }
+
+    /* Navbar */
+    .nav-options {
+        display: none;
+    }
+
+    /* banner */
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-heading {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .miama {
+        font-size: 5.5rem;
+    }
+
+    .banner-btn {
+        justify-content: space-evenly;
+    }
+
+    .banner-btn1 {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .banner-btn2 {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+        background: transparent;
+    }
+
+    /* Section - Habits */
+    .habits {
+        margin: 2rem auto;
+    }
+
+    .habits-title {
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .habits-description {
+        letter-spacing: 1px;
+    }
+
+    .habits-list {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .habit {
+        margin: -30px;
+    }
+
+    .habit-img {
+        border: 4px solid dimgray;
+        border-radius: 50%;
+        width: 80%;
+    }
+
+    .habit h1 {
+        margin-bottom: -3%;
+    }
+
+    /* Section - Run */
+    .run {
+        width: 90%;
+    }
+
+    .run-container {
+        flex-direction: column;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .run-text {
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .run-text h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .run-text button {
+        padding: 0.75rem auto;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .run-img {
+        width: 100%;
+    }
+
+    /* Section - BMI */
+    .bmi-heading {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .bmi-heading h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .chart {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+    .chart-title {
+        margin-top: 2rem;
+    }
+    
+    .chart-container {
+        width: 100%;
+    }
+
+    .chart-calc-title {
+        font-size: 1.25rem;
+    }
+
+    .calc-container {
+        width: 100%;
+    }
+
+    .calc {
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+    }
+
+    .calc-btn button {
+        width: 60%;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        border: 1px solid gray;
+        padding: 5px 10px;
+    }
+
+    /* Section - Team */
+    .team {
+        width: 90%;
+    }
+
+    .team-heading h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 100%;
+    }
+
+    .team-heading p {
+        line-height: 20px;
+    }
+
+    .team-imgs {
+        background-color: #222222;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 20px;
+        padding: 1.5rem;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .trainer1,
+    .trainer4 {
+        display: none;
+    }
+
+    .team-img {
+        position: relative;
+    }
+
+    .trainer-info {
+        position: absolute;
+        top: 10rem;
+        left: 1rem;
+    }
+
+    /* Footer */
+    .footer-text {
+        flex-direction: column;
+    }
+
+    .footer-heading {
+        width: 100%;
+    }
+
+    .rights {
+        font-size: 1rem;
+    }
+}
