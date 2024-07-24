@@ -143,6 +143,9 @@
     .calc-container {
         width: 100%;
     }
+    .calc-container P {
+        margin-top: 1rem;
+    }
 
     .calc {
         display: flex;
