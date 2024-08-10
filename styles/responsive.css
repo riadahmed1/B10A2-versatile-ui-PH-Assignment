@@ -8,6 +8,9 @@
     .nav-options {
         display: none;
     }
+    .nav-icon {
+        display: inline;
+    }
 
     /* banner */
     .banner {

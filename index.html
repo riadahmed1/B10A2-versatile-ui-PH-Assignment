@@ -7,6 +7,7 @@
     <title>B10A2 - Versatile UI</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://kit.fontawesome.com/50fe816c05.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,6 +25,9 @@
                         <p>Contact</p>
                         <p>About</p>
                     </div>
+                    <div class="nav-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </nav>
             </section>
 
@@ -32,7 +36,8 @@
                 <div class="banner-text">
                     <div class="banner-heading">
                         <h1 class="banner-title">Get body in <span class="miama">shape</span> & stay healthy</h1>
-                        <p class="banner-description light-white">A huge selection of health and fitness content, healthy
+                        <p class="banner-description light-white">A huge selection of health and fitness content,
+                            healthy
                             recipes and transformation stories to help you get fit and stay fit!</p>
                     </div>
                     <div class="banner-btn">
@@ -52,7 +57,8 @@
         <section class="habits container">
             <div class="habits-heading">
                 <h1 class="habits-title">Change Your Habits</h1>
-                <p class="habits-description light-white">We believe fitness should be accessible to everyone, everywhere,
+                <p class="habits-description light-white">We believe fitness should be accessible to everyone,
+                    everywhere,
                     regardless of income or access to a gym.</p>
             </div>
             <div class="habits-list">
@@ -78,13 +84,14 @@
                 </div>
             </div>
         </section>
-    
+
         <!-- Run -->
         <section class="run container">
             <div class="run-container">
                 <div class="run-text">
                     <h1 class="run-title">Run an Extra Mile Easily</h1>
-                    <p class="run-description light-white">We believe fitness  should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                    <p class="run-description light-white">We believe fitness should be accessible to everyone,
+                        everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                     <button class="btn-primary">Join Now</button>
                 </div>
                 <div class="run-img">
@@ -92,7 +99,7 @@
                 </div>
             </div>
         </section>
-    
+
         <!-- BMI -->
         <section class="bmi ">
             <div class="bmi-heading container">
@@ -103,6 +110,8 @@
             </div>
             <div class="bmi-containers">
                 <div class="bmi-container container">
+
+                    <!-- BMI Chart -->
                     <div class="chart-container">
                         <h1 class="chart-title chart-calc-title">BMI Calculator Chart</h1>
                         <table class="chart">
@@ -132,23 +141,26 @@
                             </tbody>
                         </table>
                     </div>
+
+                    <!-- BMI Calculator -->
                     <div class="calc-container">
                         <h1 class="calc-title chart-calc-title">Calculate your BMI</h1>
-                        <p class="calc-description light-white">We believe fitness should be accessible to everyone, everywhere, regardless
-                        of income or access to a gym. </p>
+                        <p class="calc-description light-white">We believe fitness should be accessible to everyone,
+                            everywhere, regardless
+                            of income or access to a gym. </p>
                         <div class="calc">
                             <div class="row1">
                                 <input class="height" type="text" name="Height/cm" id="" placeholder="Height/cm">
-                            
+
                                 <input class="weight" type="text" name="Weight/kg" id="" placeholder="Weight/kg">
                             </div>
                             <div class="row2">
                                 <input class="age" type="text" name="Age" id="" placeholder="Age">
-                               
+
                                 <select class="sex" name="Sex" id="">
-                                    <option value="sex">Sex</option>
+                                    <option class="opt-sex" value="sex">Sex</option>
                                 </select>
-                                
+
                             </div>
                             <div class="row3">
                                 <select class="activity" name="activity" id="activity">
@@ -163,12 +175,13 @@
                 </div>
             </div>
         </section>
-    
+
         <!-- Team -->
         <section class="team container">
             <div class="team-heading">
                 <h1>Meet Our Team</h1>
-                <p class="light-white">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="light-white">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym.</p>
             </div>
             <div class="team-imgs">
                 <div class="team-img trainer1">
@@ -214,14 +227,68 @@
                     <img src="images/trainer6.png" alt="">
                 </div>
             </div>
-        </section> 
+        </section>
+
+        <!-- Team 2nd -->
+        <section class="team2 container">
+            <div class="team2-heading">
+                <h1>Meet Our Team</h1>
+                <p class="light-white">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym.</p>
+            </div>
+            <div class="team2-imgs">
+                <div class="team2-img trainer1-2nd">
+                    <div class="trainer1-info-2nd trainer-info-2nd">
+                        <h2>Jerome Bell</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer1.png" alt=""> -->
+                </div>
+                <div class="team2-img trainer2-2nd">
+                    <div class="trainer2-info-2nd trainer-info-2nd">
+                        <h2>Cameron Williamson</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer2.png" alt=""> -->
+                </div>
+                <div class="team2-img trainer3-2nd">
+                    <div class="trainer3-info-2nd trainer-info-2nd">
+                        <h2>Darrel Steward</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer3.png" alt=""> -->
+                </div>
+                <div class="team2-img trainer4-2nd">
+                    <div class="trainer4-info-2nd trainer-info-2nd">
+                        <h2>Dianne Russell</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer4.png" alt=""> -->
+                </div>
+                <div class="team2-img trainer5-2nd">
+                    <div class="trainer5-info-2nd trainer-info-2nd">
+                        <h2> Cody Fisher</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer5.png" alt=""> -->
+                </div>
+                <div class="team2-img trainer6-2nd">
+                    <div class="trainer6-info-2nd trainer-info-2nd">
+                        <h2>Theresa Webb</h2>
+                        <p>Trainer</p>
+                    </div>
+                    <!-- <img src="images/trainer6.png" alt=""> -->
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <div class="footer-text container">
             <div class="footer-heading">
                 <h1>Fitness</h1>
-                <p class="light-white">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="light-white">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <div class="footer-links">
                 <h1>Get Started</h1>
