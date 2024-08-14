@@ -37,12 +37,15 @@
 
     .banner-btn1 {
         font-size: 1rem;
-        padding: 1rem 1.5rem;
+        padding: 1rem 2rem;
+    }
+    .banner-btn1-text {
+        display: none;
     }
 
     .banner-btn2 {
         font-size: 1rem;
-        padding: 1rem 1.5rem;
+        padding: 1rem 1rem;
         background: transparent;
     }
 
