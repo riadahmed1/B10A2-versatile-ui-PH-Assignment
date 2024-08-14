@@ -48,6 +48,32 @@
         padding: 1rem 1rem;
         background: transparent;
     }
+    .workout {
+        width: 100px;
+        height: 55px;
+        right: 70px;
+        top: 585px;
+    }
+    .tutorial {
+        width: 100px;
+        height: 55px;
+        right: 220px;
+        top: 750px;
+    }
+    .workout h1 {
+        margin-left: 10px;
+        font-size: 1.5em;
+    }
+    .workout p {
+        margin-left: 10px;
+        font-size: 0.5em;
+    }
+    .tutorial h1 {
+        font-size: 1.5em;
+    }
+    .tutorial p {
+        font-size: 0.5em;
+    }
 
     /* Section - Habits */
     .habits {
