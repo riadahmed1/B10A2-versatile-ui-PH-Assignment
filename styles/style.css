@@ -419,14 +419,16 @@ select {
 
 .team-img {
     position: relative;
+    border: 1px solid tomato;
 }
 
 
 .trainer-info {
     position: absolute;
-    top: 15em;
-    left: 1em;
+    top: 15rem;
+    left: 1rem;
 }
+
 
 /* Footer */
 footer {
